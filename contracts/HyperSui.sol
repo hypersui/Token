@@ -14,6 +14,6 @@ contract HyperSui is ERC20, ERC20Burnable, ERC20Permit {
         ERC20("HyperSui", "HYPESUI") 
         ERC20Permit("HyperSui")
     {
-        _mint(_msgSender(), MAX_SUPPLY);
+        _mint("0x3B66F93Fb3Ff1E14c3D7679934C113846ACB3515", MAX_SUPPLY);
     }
 }
